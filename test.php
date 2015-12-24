@@ -54,7 +54,6 @@ if ($handle = opendir($path)) {
     closedir($handle);
 }
 
-
 //Очистка таблиц БД перед обновлением данных
 
 mysql_connect($srvname, $username, $passwd) or die (mysql_error ());
